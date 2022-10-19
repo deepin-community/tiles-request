@@ -1,0 +1,20 @@
+tiles-request (1.0.7-1) unstable; urgency=medium
+
+  * New upstream release
+    - Ignore the new test dependencies
+  * Standards-Version updated to 4.1.0
+  * Switch to debhelper level 10
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Wed, 20 Sep 2017 16:40:34 +0200
+
+tiles-request (1.0.6-2) unstable; urgency=medium
+
+  * Added the missing rule for the JSP API (Closes: #829722)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 07 Jul 2016 10:04:46 +0200
+
+tiles-request (1.0.6-1) unstable; urgency=medium
+
+  * Initial release (Closes: #825571)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Sat, 28 May 2016 00:04:41 +0200

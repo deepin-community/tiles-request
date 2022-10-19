@@ -1,0 +1,32 @@
+Source: tiles-request
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends:
+ debhelper (>= 10),
+ default-jdk,
+ libfreemarker-java,
+ libmaven-bundle-plugin-java,
+ libmustache-java,
+ libportlet-api-2.0-spec-java,
+ libslf4j-java,
+ libspring-web-java,
+ libtiles-autotag-java,
+ libvelocity-tools-java,
+ maven-debian-helper (>= 2.0),
+ velocity
+Standards-Version: 4.1.0
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/tiles-request.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/tiles-request.git
+Homepage: http://tiles.apache.org/tiles-request/
+
+Package: libtiles-request-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: Tiles Request Framework
+ The Tiles Request library provides a simple abstraction layer around
+ request/response objects of various Java frameworks and template technologies.
+ Bindings are available for Servlet, Portlet, JSP, Mustache, Velocity
+ and FreeMarker.

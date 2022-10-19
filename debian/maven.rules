@@ -1,0 +1,5 @@
+
+javax.portlet portlet-api * * * *
+javax.servlet s/servlet-api/javax.servlet-api/ * s/.*/3.1/ * *
+javax.servlet.jsp s/jsp-api/javax.servlet.jsp-api/ * s/.*/2.3/ * *
+org.springframework * * s/.*/3.x/ * *

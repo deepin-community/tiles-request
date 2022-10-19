@@ -1,0 +1,16 @@
+
+junit junit * * * *
+org.apache.maven.plugins maven-assembly-plugin * * * *
+org.apache.maven.plugins maven-scm-publish-plugin * * * *
+org.apache.maven.wagon wagon-ssh * * * *
+org.apache.shale shale-test * * * *
+org.easymock easymock * * * *
+org.easymock easymockclassextension * * * *
+org.slf4j slf4j-simple * * * *
+org.springframework spring-webmvc-portlet * * * *
+org.ops4j.pax.* * * * * *
+org.apache.felix org.apache.felix.framework * * * *
+ch.qos.logback logback-core * * * *
+ch.qos.logback logback-classic * * * *
+org.osgi org.osgi.core * * * *
+
